@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Contacto</title>
 </head>
 <body>
     <header>
-        <h1><a href="">LOGO</a></h1>
+        <div><a href="">LOGO</a></div>
     </header>
     <nav>
         <ul>
@@ -17,10 +18,16 @@
     </nav>
     <main>
         <h1>Contactanos</h1>
-        <form action="">
-            <label for="">E-Mail:</label>
-            <label for="">Su mensaje:</label>
-            <button>Enviar</button>
+        <form action="https://formspree.io/f/xgodnygv" method="post">
+            <label>
+                Su E-mail:
+                 <input type="email" name="email">
+            </label>
+            <label>
+                Su mensaje:
+                <textarea name="message"></textarea>
+            </label>
+            <button button type="submit">Enviar</button>
         </form>
     </main>
     <footer>
