@@ -4,14 +4,69 @@
     box-sizing: border-box;
     }
 
+html,{
+    font-size: 52.5%;
+    }    
+
 body {
+    background-color: #d18c01;
     font-family: 'Quantico', sans-serif;
     flex-direction: column;
     }
 
+main {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    }    
+
+ul{
+    list-style: none;
+    }
+
 header {
-    background-color: #333;
+    background-color: rgb(85, 59, 2);
     color: white;
-    padding: 20px;
-    text-align: center;
     }   
+    
+footer {s
+    background-color: rgb(85, 59, 2);
+    }
+
+.contenedor-tarjeta {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    }
+
+.tarjeta {
+    margin-top: 10px;
+    border: 3px solid black;
+    }
+
+.tarjeta img {
+    width:  100%;
+    }
+
+.btn {
+    align-items: center;
+    }
+
+h1 {
+    text-align: center;
+    }
+
+.tarjeta h3 {
+    text-align: center;
+    }    
+
+.tarjeta p {
+    text-align: center;
+    }
+
+header, footer {
+    display: flex;
+    }
