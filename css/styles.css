@@ -56,6 +56,13 @@ footer .footer-list {
     height: auto;
 }   
 
+footer p {
+    font-size: 1.25rem;
+    font-weight: bold;
+    align-items: center;
+
+}
+
 main {
 
     }    
