@@ -16,18 +16,20 @@ body {
     }
 
 header, footer{
-    background-color:darkgoldenrod;
-    display:flex;
+    background-color:rgb(236, 203, 120);
+    display: flex;
     align-items:center;
     justify-content:space-between;
     padding: 1rem;
+    height: 10rem;
 }
 
-div.logo {
-    display: flex;
-    width: 100%;
+div.logo img {
+    width: 8rem;
     height: auto;
+    border-radius: 2rem;
 }
+
 
 header nav ul {
     display:flex;
@@ -42,17 +44,16 @@ header nav ul li a{
     color:black;
 }
 
-footer .footer-list {
+.footer-list {
     width: auto;
-    display:flex;
+    display: flex;
     list-style: none;
     gap: 2rem;
     padding: 1rem 1rem;
 }
 
 .footer-list img {
-    display: flex;
-    width: 5rem;
+    width: 4rem;
     height: auto;
 }   
 
@@ -64,5 +65,75 @@ footer p {
 }
 
 main {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 1rem;
+    padding-top: 1rem; 
+}    
 
-    }    
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 2rem;
+    text-align: center;
+}
+
+.parrafo {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 75%;
+}
+
+.contenedor-tarjeta {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    background-color: #ec0000;
+    width: 30rem;
+    padding-bottom: 1rem;
+    border-radius: 2rem;
+}
+
+.tarjeta p {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 19rem;
+    object-fit: cover;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: gold;
+}
+
+.btn {
+   font-size: 1.5rem;
+   font-weight: bold;
+   font-family: quantico, sans-serif;
+   background-color: gold;
+   padding: 0.3rem;
+   border: gold 2px solid;
+   border-radius: 1rem;
+}
