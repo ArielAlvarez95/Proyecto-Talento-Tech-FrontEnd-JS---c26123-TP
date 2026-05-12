@@ -30,7 +30,6 @@ div.logo img {
     border-radius: 2rem;
 }
 
-
 header nav ul {
     display:flex;
     list-style: none;
@@ -60,11 +59,10 @@ header nav ul li a{
 footer p {
     font-size: 1.25rem;
     font-weight: bold;
-    align-items: center;
-
 }
 
 main {
+    min-height:80vh;
     background-color: bisque;
     display: flex;
     flex-direction: column;
@@ -133,7 +131,22 @@ h3 {
    font-weight: bold;
    font-family: quantico, sans-serif;
    background-color: gold;
-   padding: 0.3rem;
+   padding: 0.3rem;z
    border: gold 2px solid;
    border-radius: 1rem;
+   cursor:pointer;
 }
+
+.form-contacto {
+    width:100%;
+    max-width: 20rem;
+    border-radius: 0.5rem;
+    background-color: gray;
+    padding: 3rem;
+}
+
+@media (max-width: 600px) {
+  header,
+  footer {
+    flex-direction: column;
+  }
