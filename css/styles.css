@@ -131,10 +131,9 @@ h3 {
    font-weight: bold;
    font-family: quantico, sans-serif;
    background-color: gold;
-   padding: 0.3rem;z
-   border: gold 2px solid;
+   padding: 0.3rem;
    border-radius: 1rem;
-   cursor:pointer;
+   cursor:pointer
 }
 
 .form-contacto {
@@ -146,7 +145,7 @@ h3 {
 }
 
 @media (max-width: 600px) {
-  header,
-  footer {
+  header, footer {
     flex-direction: column;
+    }
   }
