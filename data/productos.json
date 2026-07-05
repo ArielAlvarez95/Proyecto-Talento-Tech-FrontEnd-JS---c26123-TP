@@ -10,15 +10,15 @@
         "id": 2,
         "nombre": "AWP Dragon Lore",
         "precio": 13.941,
-        "float": "13.941",
-        "img": "images/awp dragon lore.png"
+        "float": "0.0580",
+        "img": "images/awp dragon lore.jpg"
     },
     {
         "id": 3,
         "nombre": "Deagle Printstream",
         "precio": 203.53,
         "float": "0.0557",
-        "img": "images/deagle printstream.png"
+        "img": "images/deagle printstream.jpg"
     },
     {
         "id": 4,
