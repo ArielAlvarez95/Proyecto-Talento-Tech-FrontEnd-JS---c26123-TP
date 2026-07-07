@@ -23,7 +23,7 @@ const renderizarCarrito = () => {
 
     carrito.forEach((producto, index) => {
         const tarjeta = document.createElement('article');
-        tarjeta.classList.add('card');
+        tarjeta.classList.add('tarjeta');
 
         const img = document.createElement('img');
         img.src = `../${producto.img}`;
@@ -33,7 +33,7 @@ const renderizarCarrito = () => {
         titulo.textContent = producto.nombre;
 
         const precio = document.createElement('p');
-        precio.textContent = `$${producto.precio}`;
+        precio.textContent = `Precio: $${producto.precio}`;
 
         const float = document.createElement('p');
         float.textContent = `Float: ${producto.float}`;
@@ -56,6 +56,7 @@ const renderizarCarrito = () => {
 
         contenedor.appendChild(tarjeta);
     });
+
 
     const btnVaciar = document.createElement('button');
     btnVaciar.classList.add('btn');

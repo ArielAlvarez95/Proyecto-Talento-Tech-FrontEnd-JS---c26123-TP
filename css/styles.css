@@ -119,6 +119,8 @@ h2 {
     width: 30rem;
     padding-bottom: 1rem;
     border-radius: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
 }
 
 .text-secondary {
@@ -166,9 +168,16 @@ h3 {
   color: rgb(19, 8, 66);
 }
 
-.card {
+.btn-vaciar-carrito {
+    margin-top: 1rem;
+}
 
-    }
+.contededor-tarjetas {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
 
 @media (max-width: 600px) {
   header, footer {
