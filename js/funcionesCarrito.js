@@ -14,7 +14,7 @@ export const agregarAlCarrito = (producto) => {
     mostrarMensaje("Producto agregado al carrito✅");
 }
 
-export const eliminarProdcuto = (indice) => {
+export const eliminarProducto = (indice) => {
     const carrito = obtenerCarrito();
     carrito.splice(indice, 1);
     guardarCarrito(carrito);

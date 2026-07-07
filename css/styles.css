@@ -139,6 +139,7 @@ h2 {
 h3 {
     font-size: 1.5rem;
     color: gold;
+    justify-content: center;
 }
 
 .btn {
@@ -158,6 +159,16 @@ h3 {
     background-color: gray;
     padding: 3rem;
 }
+
+.mensaje-carrito-vacio {
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(19, 8, 66);
+}
+
+.card {
+
+    }
 
 @media (max-width: 600px) {
   header, footer {
